@@ -60,18 +60,14 @@ int main() {
                 cout << "Enter the shearing factor: ";
                 cin >> sh;
 
-                int T[3][3];
-                if (ax == 'x') {
-                    T[3][3] = {{1, sh, 0},
-                               {0, 1, 0},
-                               {0, 0, 1}};
-                } else if (ax == 'y') {
-                    T[3][3] = {{1, 0, 0},
-                               {sh, 1, 0},
-                               {0, 0, 1}};
-                }
-
-                // Apply transformation
+                int T[3][3] = { {1, 0, 0}, {0, 1, 0}, {0, 0, 1} };
+				if (ax == 'x') {
+    				T[0][1] = sh; // Shearing along x-axis
+				} else if (ax == 'y') {
+    				T[1][0] = sh; // Shearing along y-axis
+				}
+				
+				// Apply transformation
                 for (i = 0; i < 2; i++) {
                     for (j = 0; j < 3; j++) {
                         pp[i][j] = 0; // Initialize transformed coordinates
