@@ -68,3 +68,5 @@ int main(void) {
 
     return 0; // End of program
 }
+//50 50
+//150 100
