@@ -175,3 +175,7 @@ int main() {
     system("pause"); // Wait for user input before closing
     return 0;       // End of program
 }
+//3
+//50 50
+//300 400
+//600 50
