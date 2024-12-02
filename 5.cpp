@@ -82,3 +82,6 @@ int main() {
     delay(7000); // Wait before closing the graphics window
     return 0;
 }
+//4
+//100 100 400 100
+//400 400 100 400
