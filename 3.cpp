@@ -96,3 +96,5 @@ int main() {
     system("pause"); // Pause before closing
     return 0;
 }
+//150 350
+//420 975
