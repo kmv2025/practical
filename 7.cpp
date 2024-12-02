@@ -72,3 +72,4 @@ int main() {
 
     return 0;
 }
+//translation factor 100 300
